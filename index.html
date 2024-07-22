@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css" />
+  </head>
+  <body>
+    <div id="mainDiv">
+        <div id="generatedWord">
+            <h3 id="passwordGenerated"></h3>
+        </div>
+      <h1>Generate Password</h1>
+      <h3>Introduce number of characters</h3>
+      <input type="number" id="inputNumber" placeholder="Introduce Number"/><br />
+      <input type="checkbox" id="specialChar" checked />Special
+      characters<br />
+      <input type="checkbox" id="lowerCase" />Lower Case <br />
+      <input type="checkbox" id="upperCase"  />Upper Case<br />
+      <input type="checkbox" id="numbers"  />Numbers <br />
+      <button onclick="generateWord()" id="btnGenerate">Generate word</button>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
